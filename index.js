@@ -9,21 +9,8 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost/restful', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/restful', {useNewUrlParser: true, useUnifiedTopology: true});
 const EXTURL = "https://www.gamblersbet.com/";
-
-
-const ProductSchema = mongoose.Schema({
-    name: String,
-    sku: String,
-    price: Number
-})
-
-const Products = restful.model('products', ProductSchema);
-Products.methods(['get', 'post', 'put', 'delete']);
-Products.register(app, '/api/products');
-
-
 
 const WebsiteSchema = mongoose.Schema({
     name: String,
@@ -36,23 +23,24 @@ Websites.register(app, '/api/websites');
 
 
 
-critical.generate({
-    base: 'test/',
-    src: EXTURL,
-    target: 'styles/main.css',
-    width: 1300,
-    height: 900
-  });
 
-const puppeteer = require('puppeteer');
+// critical.generate({
+//     base: 'test/',
+//     src: EXTURL,
+//     target: 'styles/main.css',
+//     width: 1300,
+//     height: 900
+//   });
+
+// const puppeteer = require('puppeteer');
  
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(EXTURL);
-  await page.screenshot({path: 'example.png'});
-  await browser.close();
-})();
+// (async () => {
+//   const browser = await puppeteer.launch();
+//   const page = await browser.newPage();
+//   await page.goto(EXTURL);
+//   await page.screenshot({path: 'example.png'});
+//   await browser.close();
+// })();
   
 
 app.listen(3000);
