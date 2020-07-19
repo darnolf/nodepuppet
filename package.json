@@ -14,7 +14,8 @@
     "critical": "^2.0.1",
     "express": "latest",
     "mongoose": "^5.9.25",
-    "node-restful": "latest"
+    "node-restful": "latest",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
