@@ -17,6 +17,9 @@ const EXTURL = "https://www.gamblersbet.com/";
 const WebsiteSchema = mongoose.Schema({
     name: String,
     url: String,
+    theme: String,
+    subtheme: String,
+    cloudflare: String
 })
 
 const Websites = restful.model('websites', WebsiteSchema);

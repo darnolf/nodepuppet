@@ -1,0 +1,155 @@
+[
+    {
+        "_id": "5f14d08446b81937dcbecd64",
+        "name": "australia-casino",
+        "url": "https://www.australia-casino.org",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": "",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d0ab46b81937dcbecd65",
+        "name": "truebluecasinos",
+        "url": "https://www.truebluecasinos.org",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": "",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d0d146b81937dcbecd66",
+        "name": "truenorthcasinos",
+        "url": "https://www.truenorthcasinos.ca",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": "",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d0f846b81937dcbecd67",
+        "name": "a7labet",
+        "url": "https://www.a7labet.com",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d10a46b81937dcbecd68",
+        "name": "casinosnavi",
+        "url": "https://www.casinosnavi.com/",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d15646b81937dcbecd6a",
+        "name": "jouerenlignefr",
+        "url": "https://www.jouerenlignefr.com",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "Assets",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d18446b81937dcbecd6b",
+        "name": "thaicasinocenter",
+        "url": "https://www.thaicasinocenter.com",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d1a746b81937dcbecd6c",
+        "name": "jeuxdcasino",
+        "url": "https://www.jeuxdcasino.com",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "Assets",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d1c946b81937dcbecd6d",
+        "name": "casinoelarab",
+        "url": "https://www.casinoelarab.com",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d1e646b81937dcbecd6e",
+        "name": "india-casinos",
+        "url": "https://www.india-casinos.com/",
+        "theme": "Casino Engine Ver3 7.x-2.3.0",
+        "subtheme": " Casino V3 Local",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d2a546b81937dcbecd6f",
+        "name": "sportbettingindia",
+        "url": "https://www.sportbettingindia.com",
+        "theme": "New Casino Engine 7.x-1.94",
+        "subtheme": "New Engine Sub Theme",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d2c246b81937dcbecd70",
+        "name": "thaibets365",
+        "url": "https://www.thaibets365.com/",
+        "theme": "New Casino Engine 7.x-1.94",
+        "subtheme": "New Engine Sub Theme",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d2d846b81937dcbecd71",
+        "name": "arabicbet",
+        "url": "https://www.arabicbet.org",
+        "theme": "New Casino Engine 7.x-1.94",
+        "subtheme": "New Engine Sub Theme",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d33e46b81937dcbecd72",
+        "name": "gamblersbet",
+        "url": "https://www.gamblersbet.com",
+        "theme": "Casino Flex 7.x-1.1",
+        "subtheme": "",
+        "cloudflare": "Assets",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d35d46b81937dcbecd73",
+        "name": "nettcasinos",
+        "url": "https://www.nettcasinos.org",
+        "theme": "Casino Flex 7.x-1.1",
+        "subtheme": "",
+        "cloudflare": "Assets",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d38446b81937dcbecd74",
+        "name": "casinostest",
+        "url": "https://www.casinostest.de",
+        "theme": "Casino Flex 7.x-1.1",
+        "subtheme": "",
+        "cloudflare": "All",
+        "__v": 0
+    },
+    {
+        "_id": "5f14d42d46b81937dcbecd75",
+        "name": "euromillions-loterie",
+        "url": "https://www.euromillions-loterie.fr",
+        "theme": "Adzz Lotto 7.0 ",
+        "subtheme": "",
+        "cloudflare": "Assets",
+        "__v": 0
+    }
+]
