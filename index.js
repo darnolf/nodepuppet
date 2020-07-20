@@ -28,14 +28,14 @@ Websites.register(app, '/api/websites');
 
 app.get('/api/websites/all', async (req, res, next) => {
   try {
-    const result = await Websites.find().limit().select().exec();
+    const result = await Websites.find().limit(5).select().exec();
     const data = JSON.parse(JSON.stringify(result));
 
     const screenshots = [];
     
     const websites = await data.map(x => {
       
-      getscreenshot(x);
+      getscreenshot(x, '1920,1080');
 
       //setTimeout(function(){ console.log(x.name); }, 3000);
       
@@ -76,17 +76,17 @@ const getcritical = async (data) => {
 const puppeteer = require('puppeteer');
 const { doesNotMatch } = require('assert');
 
-const getscreenshot = async (data) => {
+const getscreenshot = async (data, size) => {
   // const imgpath = path.join(public, data.url);
 
-  const browser = await puppeteer.launch( {"headless": false, args: ['--window-size=400,800'], defaultViewport: null });
+  const browser = await puppeteer.launch( {"headless": false, args: [`--window-size=${size}`], defaultViewport: null });
   const page = await browser.newPage();
 
   await page.goto(data.url, { waitUntil: "networkidle0"});
   //await page.setViewport({ width: 0, height: 0 }); 
   await page._client.send('Emulation.clearDeviceMetricsOverride'); 
   await page.screenshot({
-    path: __dirname + '/public/' +  data.name + '.png',
+    path: __dirname + '/public/' +  data.name +  size.replace(',', 'x') +  '.png',
     //fullPage: true
   }); 
   await browser.close();
